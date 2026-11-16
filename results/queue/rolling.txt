@@ -1,0 +1,24 @@
+[rolling] kimi_dilution_s1337: 29 books in 207s
+[rolling] kimi_softmax_nope_s1337: 29 books in 133s
+
+full prefix minus 16384-token window, nats/token (negative: distant context helps)
+model                            0-512      512-1024         1K-2K         2K-4K         4K-8K        8K-16K       16K-32K       32K-64K      64K-128K
+kimi_dilution_s1337       +0.000±0.000  +0.000±0.000  -0.000±0.000  -0.000±0.000  -0.000±0.000  -0.000±0.000  -0.015±0.002  -0.019±0.003  -0.022±0.003
+kimi_softmax_nope_s1337   -0.000±0.000  +0.000±0.000  +0.000±0.000  -0.000±0.000  +0.000±0.000  +0.000±0.000  -0.002±0.000  -0.003±0.000  -0.002±0.000
+wrote results/investigate/rolling_window_kimi_s1337.json
+[rolling] kimi_dilution_s2357: 29 books in 164s
+[rolling] kimi_softmax_nope_s2357: 29 books in 131s
+
+full prefix minus 16384-token window, nats/token (negative: distant context helps)
+model                            0-512      512-1024         1K-2K         2K-4K         4K-8K        8K-16K       16K-32K       32K-64K      64K-128K
+kimi_dilution_s2357       +0.000±0.000  -0.000±0.000  -0.000±0.000  -0.000±0.000  -0.000±0.000  +0.000±0.000  -0.015±0.002  -0.022±0.002  -0.026±0.003
+kimi_softmax_nope_s2357   +0.000±0.000  -0.000±0.000  +0.000±0.000  -0.000±0.000  -0.000±0.000  +0.000±0.000  +0.000±0.001  +0.003±0.001  +0.003±0.001
+wrote results/investigate/rolling_window_kimi_s2357.json
+[rolling] kimi_dilution_s7331: 29 books in 163s
+[rolling] kimi_softmax_nope_s7331: 29 books in 130s
+
+full prefix minus 16384-token window, nats/token (negative: distant context helps)
+model                            0-512      512-1024         1K-2K         2K-4K         4K-8K        8K-16K       16K-32K       32K-64K      64K-128K
+kimi_dilution_s7331       +0.000±0.000  +0.000±0.000  -0.000±0.000  +0.000±0.000  +0.000±0.000  -0.000±0.000  -0.012±0.002  -0.014±0.002  -0.015±0.003
+kimi_softmax_nope_s7331   +0.000±0.000  -0.000±0.000  +0.000±0.000  -0.000±0.000  -0.000±0.000  +0.000±0.000  -0.002±0.000  -0.002±0.000  -0.002±0.000
+wrote results/investigate/rolling_window_kimi_s7331.json

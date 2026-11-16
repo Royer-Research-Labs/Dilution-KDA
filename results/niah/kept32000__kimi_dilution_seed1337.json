@@ -1,0 +1,155 @@
+[
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 70,
+    "correct": 70,
+    "duration_s": 10.174427270889282,
+    "context_length": 16000,
+    "length_basis": "input",
+    "input_length_max": 16000,
+    "input_length_min": 16000,
+    "haystack_length_mean": 15988.0,
+    "placements_per_needle": 10,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.19204450483833,
+    "avg_margin_avg": 6.19204450483833,
+    "avg_prior_adjusted_lift_ll": 8.936464147695473,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 28,
+    "mid_accuracy": 1.0,
+    "mid_total": 14,
+    "late_accuracy": 1.0,
+    "late_total": 28,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/checkpoint_step_0032000.pt",
+        "bytes": 2502714911,
+        "sha256": "804486da590f94b93fdbad9057ab8598b573459e476fcdc94c01fddc726b079a",
+        "step": 32000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 10,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": 132000,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 70,
+    "correct": 70,
+    "duration_s": 69.08065986633301,
+    "context_length": 64000,
+    "length_basis": "input",
+    "input_length_max": 64000,
+    "input_length_min": 64000,
+    "haystack_length_mean": 63988.0,
+    "placements_per_needle": 10,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.2190290219017434,
+    "avg_margin_avg": 6.2190290219017434,
+    "avg_prior_adjusted_lift_ll": 8.689453129044601,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 28,
+    "mid_accuracy": 1.0,
+    "mid_total": 14,
+    "late_accuracy": 1.0,
+    "late_total": 28,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/checkpoint_step_0032000.pt",
+        "bytes": 2502714911,
+        "sha256": "804486da590f94b93fdbad9057ab8598b573459e476fcdc94c01fddc726b079a",
+        "step": 32000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 10,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": 132000,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 70,
+    "correct": 70,
+    "duration_s": 217.04445457458496,
+    "context_length": 128000,
+    "length_basis": "input",
+    "input_length_max": 128000,
+    "input_length_min": 128000,
+    "haystack_length_mean": 127988.0,
+    "placements_per_needle": 10,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.155580360974584,
+    "avg_margin_avg": 6.155580360974584,
+    "avg_prior_adjusted_lift_ll": 9.052901789546013,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 28,
+    "mid_accuracy": 1.0,
+    "mid_total": 14,
+    "late_accuracy": 1.0,
+    "late_total": 28,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/checkpoint_step_0032000.pt",
+        "bytes": 2502714911,
+        "sha256": "804486da590f94b93fdbad9057ab8598b573459e476fcdc94c01fddc726b079a",
+        "step": 32000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 10,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": 132000,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  }
+]

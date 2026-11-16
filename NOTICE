@@ -1,0 +1,12 @@
+DilutionAttention
+Copyright 2026 Royer Research Labs, LLC
+
+This product includes software developed by Royer Research Labs, LLC.
+Principal author: Nick Royer.
+Project repository: https://github.com/Royer-Research-Labs/dilution-attention
+
+This repository vendors the DilutionAttention harness (vendored.json) and adds a
+Kimi Delta Attention layer (src/dilution/mixers.py) that follows the
+flash-linear-attention implementation (https://github.com/fla-org/flash-linear-attention,
+MIT License) and calls its Triton kernel. Kimi Delta Attention and the Kimi Linear
+architecture are by Moonshot AI (arXiv 2510.26692).

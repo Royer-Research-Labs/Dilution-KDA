@@ -1,0 +1,53 @@
+[kimi] 2026-11-09T07:00:34-05:00 pytest: 190 passed, 15 warnings in 48.38s
+[kimi] 2026-11-09T07:00:34-05:00 train kimi_dilution seed 1337 to step 64000
+[kimi] 2026-11-10T05:33:08-05:00 done kimi_dilution seed 1337: loss 2.9852
+[kimi] 2026-11-10T05:33:08-05:00 train kimi_softmax_nope seed 1337 to step 64000
+[kimi] 2026-11-10T22:53:54-05:00 done kimi_softmax_nope seed 1337: loss 3.0310
+[kimi] 2026-11-10T22:53:54-05:00 KIMI_DONE seeds 1337
+[kimi_extra] 2026-11-10T23:09:26-05:00 seed 1337: PG-19 perplexity by position
+[kimi_extra] 2026-11-10T23:12:14-05:00 seed 1337: rolling-window control
+[kimi_extra] 2026-11-10T23:18:12-05:00 seed 1337: NIAH hard mode, 0 distractors
+[kimi_extra] 2026-11-10T23:27:12-05:00 seed 1337: NIAH hard mode, 3 distractors
+[kimi_extra] 2026-11-10T23:36:12-05:00 seed 1337: kimi_dilution needle attention and structure
+[kimi_extra] 2026-11-10T23:37:53-05:00 seed 1337: kimi_dilution NIAH at step 16000
+[kimi_extra] 2026-11-10T23:43:07-05:00 seed 1337: kimi_dilution NIAH at step 32000
+[kimi_extra] 2026-11-10T23:48:22-05:00 seed 1337: kimi_softmax_nope needle attention and structure
+[kimi_extra] 2026-11-10T23:49:11-05:00 seed 1337: kimi_softmax_nope NIAH at step 16000
+[kimi_extra] 2026-11-10T23:51:54-05:00 seed 1337: kimi_softmax_nope NIAH at step 32000
+[kimi_extra] 2026-11-10T23:54:38-05:00 KIMI_EXTRA_DONE seeds 1337
+[kimi] 2026-11-11T13:52:19-05:00 pytest: 289 passed, 14 warnings in 11.01s
+[kimi] 2026-11-11T13:52:19-05:00 train kimi_dilution seed 2357 to step 64000
+[kimi] 2026-11-12T11:23:50-05:00 done kimi_dilution seed 2357: loss 2.9883
+[kimi] 2026-11-12T11:23:50-05:00 train kimi_softmax_nope seed 2357 to step 64000
+[kimi] 2026-11-12T22:48:52-05:00 TRAIN FAILED kimi_softmax_nope seed 2357
+[kimi] 2026-11-12T22:48:52-05:00 train kimi_dilution seed 7331 to step 64000
+[kimi] 2026-11-13T20:22:06-05:00 done kimi_dilution seed 7331: loss 2.9818
+[kimi] 2026-11-13T20:22:06-05:00 train kimi_softmax_nope seed 7331 to step 64000
+[kimi] 2026-11-14T13:39:12-05:00 done kimi_softmax_nope seed 7331: loss 3.0282
+[kimi] 2026-11-14T13:39:12-05:00 KIMI_DONE seeds 2357 7331
+[kimi] 2026-11-14T13:39:29-05:00 pytest: 289 passed, 14 warnings in 14.85s
+[kimi] 2026-11-14T13:39:29-05:00 done kimi_dilution seed 2357: loss 2.9883
+[kimi] 2026-11-14T13:39:29-05:00 train kimi_softmax_nope seed 2357 to step 64000
+[kimi] 2026-11-14T19:48:06-05:00 done kimi_softmax_nope seed 2357: loss 3.0338
+[kimi] 2026-11-14T19:48:06-05:00 KIMI_DONE seeds 2357
+[kimi_extra] 2026-11-14T19:48:06-05:00 seed 2357: PG-19 perplexity by position
+[kimi_extra] 2026-11-14T19:50:21-05:00 seed 2357: rolling-window control
+[kimi_extra] 2026-11-14T19:55:35-05:00 seed 2357: NIAH hard mode, 0 distractors
+[kimi_extra] 2026-11-14T20:02:56-05:00 seed 2357: NIAH hard mode, 3 distractors
+[kimi_extra] 2026-11-14T20:10:13-05:00 seed 2357: kimi_dilution needle attention and structure
+[kimi_extra] 2026-11-14T20:11:14-05:00 seed 2357: kimi_dilution NIAH at step 16000
+[kimi_extra] 2026-11-14T20:14:57-05:00 seed 2357: kimi_dilution NIAH at step 32000
+[kimi_extra] 2026-11-14T20:18:41-05:00 seed 2357: kimi_softmax_nope needle attention and structure
+[kimi_extra] 2026-11-14T20:19:27-05:00 seed 2357: kimi_softmax_nope NIAH at step 16000
+[kimi_extra] 2026-11-14T20:22:07-05:00 seed 2357: kimi_softmax_nope NIAH at step 32000
+[kimi_extra] 2026-11-14T20:24:48-05:00 seed 7331: PG-19 perplexity by position
+[kimi_extra] 2026-11-14T20:27:03-05:00 seed 7331: rolling-window control
+[kimi_extra] 2026-11-14T20:32:15-05:00 seed 7331: NIAH hard mode, 0 distractors
+[kimi_extra] 2026-11-14T20:39:29-05:00 seed 7331: NIAH hard mode, 3 distractors
+[kimi_extra] 2026-11-14T20:46:47-05:00 seed 7331: kimi_dilution needle attention and structure
+[kimi_extra] 2026-11-14T20:47:46-05:00 seed 7331: kimi_dilution NIAH at step 16000
+[kimi_extra] 2026-11-14T20:51:29-05:00 seed 7331: kimi_dilution NIAH at step 32000
+[kimi_extra] 2026-11-14T20:55:13-05:00 seed 7331: kimi_softmax_nope needle attention and structure
+[kimi_extra] 2026-11-14T20:56:02-05:00 seed 7331: kimi_softmax_nope NIAH at step 16000
+[kimi_extra] 2026-11-14T20:58:42-05:00 seed 7331: kimi_softmax_nope NIAH at step 32000
+[kimi_extra] 2026-11-14T21:01:22-05:00 KIMI_EXTRA_DONE seeds 2357 7331

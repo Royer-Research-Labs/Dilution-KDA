@@ -1,0 +1,10 @@
+{
+  "loss": 3.031035862863064,
+  "perplexity": 20.71868319202031,
+  "accuracy": 0.41800689697265625,
+  "tokens": 2097152,
+  "batches": 64,
+  "run": "runs/scale_16384/kimi_softmax_nope_seed1337",
+  "batch_size": 2,
+  "sequence_length": 16384
+}

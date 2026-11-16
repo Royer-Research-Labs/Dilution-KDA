@@ -1,0 +1,563 @@
+[
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 6.383096933364868,
+    "context_length": 256,
+    "length_basis": "input",
+    "input_length_max": 256,
+    "input_length_min": 256,
+    "haystack_length_mean": 244.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 7.281640613398381,
+    "avg_margin_avg": 7.281640613398381,
+    "avg_prior_adjusted_lift_ll": 11.809542399112667,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 5.052563667297363,
+    "context_length": 512,
+    "length_basis": "input",
+    "input_length_max": 512,
+    "input_length_min": 512,
+    "haystack_length_mean": 500.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 7.140757538644331,
+    "avg_margin_avg": 7.140757538644331,
+    "avg_prior_adjusted_lift_ll": 11.474741913644332,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 4.9881041049957275,
+    "context_length": 896,
+    "length_basis": "input",
+    "input_length_max": 896,
+    "input_length_min": 896,
+    "haystack_length_mean": 884.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.904743280368192,
+    "avg_margin_avg": 6.904743280368192,
+    "avg_prior_adjusted_lift_ll": 11.391350423225335,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 4.949299097061157,
+    "context_length": 1024,
+    "length_basis": "input",
+    "input_length_max": 1024,
+    "input_length_min": 1024,
+    "haystack_length_mean": 1012.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.812069265491196,
+    "avg_margin_avg": 6.812069265491196,
+    "avg_prior_adjusted_lift_ll": 11.430372836919767,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 5.1996214389801025,
+    "context_length": 1920,
+    "length_basis": "input",
+    "input_length_max": 1920,
+    "input_length_min": 1920,
+    "haystack_length_mean": 1908.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.548625827793564,
+    "avg_margin_avg": 6.548625827793564,
+    "avg_prior_adjusted_lift_ll": 11.33509433365294,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 5.3316309452056885,
+    "context_length": 3072,
+    "length_basis": "input",
+    "input_length_max": 3072,
+    "input_length_min": 3072,
+    "haystack_length_mean": 3060.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.474196726882032,
+    "avg_margin_avg": 6.474196726882032,
+    "avg_prior_adjusted_lift_ll": 11.271071726882033,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 5.4561684131622314,
+    "context_length": 3840,
+    "length_basis": "input",
+    "input_length_max": 3840,
+    "input_length_min": 3840,
+    "haystack_length_mean": 3828.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.279623836385352,
+    "avg_margin_avg": 6.279623836385352,
+    "avg_prior_adjusted_lift_ll": 10.78436713995678,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 7.722692012786865,
+    "context_length": 6144,
+    "length_basis": "input",
+    "input_length_max": 6144,
+    "input_length_min": 6144,
+    "haystack_length_mean": 6132.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.411889648171408,
+    "avg_margin_avg": 6.411889648171408,
+    "avg_prior_adjusted_lift_ll": 11.00944126647498,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 8.519234895706177,
+    "context_length": 7936,
+    "length_basis": "input",
+    "input_length_max": 7936,
+    "input_length_min": 7936,
+    "haystack_length_mean": 7924.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.333942533444081,
+    "avg_margin_avg": 6.333942533444081,
+    "avg_prior_adjusted_lift_ll": 10.959814464247652,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 12.969873905181885,
+    "context_length": 12288,
+    "length_basis": "input",
+    "input_length_max": 12288,
+    "input_length_min": 12288,
+    "haystack_length_mean": 12276.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.073801535740495,
+    "avg_margin_avg": 6.073801535740495,
+    "avg_prior_adjusted_lift_ll": 10.858121209006224,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  },
+  {
+    "task": "niah",
+    "accuracy": 1.0,
+    "total": 140,
+    "correct": 140,
+    "duration_s": 17.646628618240356,
+    "context_length": 16000,
+    "length_basis": "input",
+    "input_length_max": 16000,
+    "input_length_min": 16000,
+    "haystack_length_mean": 15988.0,
+    "placements_per_needle": 20,
+    "num_needles": 8,
+    "evaluated_needles": 7,
+    "disqualified_needles": 1,
+    "avg_retrieval_gap_ll": 6.0594072652182405,
+    "avg_margin_avg": 6.0594072652182405,
+    "avg_prior_adjusted_lift_ll": 10.776065108126827,
+    "avg_pass_accuracy": 1.0,
+    "mode": "standard",
+    "early_accuracy": 1.0,
+    "early_total": 49,
+    "mid_accuracy": 1.0,
+    "mid_total": 42,
+    "late_accuracy": 1.0,
+    "late_total": 49,
+    "provenance": {
+      "harness": {
+        "repository": "https://github.com/Royer-Research-Labs/Niah",
+        "spec_version": "niah-v4-spec",
+        "commit": "fe5e15cb688fa59d477c37a3b4b5bd0895381985",
+        "dirty": false
+      },
+      "checkpoint": {
+        "path": "runs/scale_16384/kimi_dilution_seed1337/latest.pt",
+        "bytes": 2502714911,
+        "sha256": "76261b6a59fd27f23f294ac6514b8092513abbbf3a45b199f29612d7bc4dd8cb",
+        "step": 64000
+      },
+      "eval": {
+        "num_needles": 8,
+        "samples": 20,
+        "seed": 42,
+        "tokenizer": "gpt2",
+        "dtype": "bfloat16",
+        "context_override": null,
+        "ntk": false,
+        "trained_context": 16384
+      }
+    }
+  }
+]

@@ -1,0 +1,6 @@
+runs/scale_16384/kimi_dilution_seed1337: val loss 2.9852 ppl 19.79 acc 0.4260 on 2,097,152 tokens
+runs/scale_16384/kimi_softmax_nope_seed1337: val loss 3.0310 ppl 20.72 acc 0.4180 on 2,097,152 tokens
+runs/scale_16384/kimi_dilution_seed2357: val loss 2.9883 ppl 19.85 acc 0.4266 on 2,097,152 tokens
+runs/scale_16384/kimi_dilution_seed7331: val loss 2.9818 ppl 19.72 acc 0.4270 on 2,097,152 tokens
+runs/scale_16384/kimi_softmax_nope_seed7331: val loss 3.0282 ppl 20.66 acc 0.4185 on 2,097,152 tokens
+runs/scale_16384/kimi_softmax_nope_seed2357: val loss 3.0338 ppl 20.78 acc 0.4179 on 2,097,152 tokens

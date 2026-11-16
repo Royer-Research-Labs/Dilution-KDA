@@ -1,0 +1,10 @@
+{
+  "loss": 2.985200345516205,
+  "perplexity": 19.790466770499826,
+  "accuracy": 0.42595624923706055,
+  "tokens": 2097152,
+  "batches": 64,
+  "run": "runs/scale_16384/kimi_dilution_seed1337",
+  "batch_size": 2,
+  "sequence_length": 16384
+}

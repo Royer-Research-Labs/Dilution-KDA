@@ -1,0 +1,299 @@
+{
+ "source": "https://github.com/Royer-Research-Labs/Dilution-Attention",
+ "commit": "9957298aa87ba5580f9dafc9fa4e191604120b09",
+ "note": "Each file is the source file with `edits` (old, new) applied; an empty list means byte-identical. The only edit exempts parameters tagged _no_weight_decay (KDA's A_log and dt_bias) from weight decay. src/dilution/mixers.py (the KDA layer) is new and not vendored.",
+ "files": [
+  {
+   "file": "scripts/attention_structure.py",
+   "source": "scripts/attention_structure.py",
+   "source_sha256": "c469a27a105d2a9067eeec147a7cd15d10ba4218106a9dd7ae1ab0efc303d4a5",
+   "sha256": "c469a27a105d2a9067eeec147a7cd15d10ba4218106a9dd7ae1ab0efc303d4a5",
+   "edits": []
+  },
+  {
+   "file": "scripts/bench_crossover.py",
+   "source": "scripts/bench_crossover.py",
+   "source_sha256": "ee977e842b680f84b40b6f8b774e09d9440c89b6e1db203e9c950c6dadab49d2",
+   "sha256": "ee977e842b680f84b40b6f8b774e09d9440c89b6e1db203e9c950c6dadab49d2",
+   "edits": []
+  },
+  {
+   "file": "scripts/bench_prefill_decode.py",
+   "source": "scripts/bench_prefill_decode.py",
+   "source_sha256": "45891309b735ef41df3c9b32d2319c34a2b2374b83af0a135c7ebe578cd1f9f2",
+   "sha256": "45891309b735ef41df3c9b32d2319c34a2b2374b83af0a135c7ebe578cd1f9f2",
+   "edits": []
+  },
+  {
+   "file": "scripts/blend_corpus.py",
+   "source": "scripts/blend_corpus.py",
+   "source_sha256": "2207cc24b7f4947086e59157f635864a116160e149b5a2f8329908814c89c164",
+   "sha256": "2207cc24b7f4947086e59157f635864a116160e149b5a2f8329908814c89c164",
+   "edits": []
+  },
+  {
+   "file": "scripts/compare_niah_versions.py",
+   "source": "scripts/compare_niah_versions.py",
+   "source_sha256": "cb1a255eb31cd711f84118f43a82eff810888d4fd40e94ba8300edd1517beb29",
+   "sha256": "cb1a255eb31cd711f84118f43a82eff810888d4fd40e94ba8300edd1517beb29",
+   "edits": []
+  },
+  {
+   "file": "scripts/eval_checkpoint.py",
+   "source": "scripts/eval_checkpoint.py",
+   "source_sha256": "9fe3713c4a78c643cbd41baa13c0057a224efd27c05d92b2d1970559e915e128",
+   "sha256": "9fe3713c4a78c643cbd41baa13c0057a224efd27c05d92b2d1970559e915e128",
+   "edits": []
+  },
+  {
+   "file": "scripts/export_hf.py",
+   "source": "scripts/export_hf.py",
+   "source_sha256": "240a20ebff42f5e740d2b3669dde1a6c7d250450116231ff5fae07d805e233c5",
+   "sha256": "240a20ebff42f5e740d2b3669dde1a6c7d250450116231ff5fae07d805e233c5",
+   "edits": []
+  },
+  {
+   "file": "scripts/judge_stability.py",
+   "source": "scripts/judge_stability.py",
+   "source_sha256": "3788864f6d0cc4d2279f12fd6b1b588db71457227080716a5b77d62158787d6c",
+   "sha256": "3788864f6d0cc4d2279f12fd6b1b588db71457227080716a5b77d62158787d6c",
+   "edits": []
+  },
+  {
+   "file": "scripts/long_perplexity.py",
+   "source": "scripts/long_perplexity.py",
+   "source_sha256": "2488b8288b0a3abec9b9efeb40e09caf98bd0b1f02afc1167c2c8370c0af816d",
+   "sha256": "2488b8288b0a3abec9b9efeb40e09caf98bd0b1f02afc1167c2c8370c0af816d",
+   "edits": []
+  },
+  {
+   "file": "scripts/make_retrieval_figure.py",
+   "source": "scripts/make_retrieval_figure.py",
+   "source_sha256": "2905030af161f59e9b575fef25bc30e39dc6ef924f17016c2f7657351b5d46e8",
+   "sha256": "2905030af161f59e9b575fef25bc30e39dc6ef924f17016c2f7657351b5d46e8",
+   "edits": []
+  },
+  {
+   "file": "scripts/needle_attention.py",
+   "source": "scripts/needle_attention.py",
+   "source_sha256": "7f213bb25c425d3b7786981915fdb9ff6e5b9ab610df99f317911573c4e33d42",
+   "sha256": "7f213bb25c425d3b7786981915fdb9ff6e5b9ab610df99f317911573c4e33d42",
+   "edits": []
+  },
+  {
+   "file": "scripts/profile_kernels.py",
+   "source": "scripts/profile_kernels.py",
+   "source_sha256": "5d1d01f942ae5b26d0288c36c43ce79b0601c42c1beb0484681a265c34a83008",
+   "sha256": "5d1d01f942ae5b26d0288c36c43ce79b0601c42c1beb0484681a265c34a83008",
+   "edits": []
+  },
+  {
+   "file": "scripts/report_run.py",
+   "source": "scripts/report_run.py",
+   "source_sha256": "b8a0dffa1204c2076bb5a33c9eb2c701213e5573786bb4df3f2babc30974d14f",
+   "sha256": "b8a0dffa1204c2076bb5a33c9eb2c701213e5573786bb4df3f2babc30974d14f",
+   "edits": []
+  },
+  {
+   "file": "scripts/run_suite.py",
+   "source": "scripts/run_suite.py",
+   "source_sha256": "030fe118b5c13c96de378a038fdf743c256c6ccd3039d31e9b300de6d6b3aec7",
+   "sha256": "030fe118b5c13c96de378a038fdf743c256c6ccd3039d31e9b300de6d6b3aec7",
+   "edits": []
+  },
+  {
+   "file": "scripts/sample_eval.py",
+   "source": "scripts/sample_eval.py",
+   "source_sha256": "fc413dcc69e12a2d35e128f1cd31ae73d01444f2926d27fa9359daa14c190f8c",
+   "sha256": "fc413dcc69e12a2d35e128f1cd31ae73d01444f2926d27fa9359daa14c190f8c",
+   "edits": []
+  },
+  {
+   "file": "scripts/select_lr.py",
+   "source": "scripts/select_lr.py",
+   "source_sha256": "c154cf0cf293274c079bc6ae3e588fa04fa67b05e4b99247369a30254c4e3e07",
+   "sha256": "c154cf0cf293274c079bc6ae3e588fa04fa67b05e4b99247369a30254c4e3e07",
+   "edits": []
+  },
+  {
+   "file": "scripts/step_profile.py",
+   "source": "scripts/step_profile.py",
+   "source_sha256": "8be6db1ddd4ce80f6ff48a18b2164045d4286e828aafecf395d930295a89191a",
+   "sha256": "8be6db1ddd4ce80f6ff48a18b2164045d4286e828aafecf395d930295a89191a",
+   "edits": []
+  },
+  {
+   "file": "scripts/train_kernel_variant.py",
+   "source": "scripts/train_kernel_variant.py",
+   "source_sha256": "84e0a99fc82e0854eccd1e04706cfc338cc690eaa093ca164a71ce870bec8a5a",
+   "sha256": "84e0a99fc82e0854eccd1e04706cfc338cc690eaa093ca164a71ce870bec8a5a",
+   "edits": []
+  },
+  {
+   "file": "scripts/verify_samples.py",
+   "source": "scripts/verify_samples.py",
+   "source_sha256": "b770ea4bde4a80f596d1872c82c74110d1eaddb694abf995ba1168473c70b4f6",
+   "sha256": "b770ea4bde4a80f596d1872c82c74110d1eaddb694abf995ba1168473c70b4f6",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/__init__.py",
+   "source": "src/dilution/__init__.py",
+   "source_sha256": "df059be1570e51d5e9c750e542804dcfd7d3dcb3a71df0a89dd01070e852800b",
+   "sha256": "df059be1570e51d5e9c750e542804dcfd7d3dcb3a71df0a89dd01070e852800b",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/benchmark.py",
+   "source": "src/dilution/benchmark.py",
+   "source_sha256": "37ee72c282b9d7a9de979d869eb14c3cf4910672794caf96a59533b6e43282d4",
+   "sha256": "37ee72c282b9d7a9de979d869eb14c3cf4910672794caf96a59533b6e43282d4",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/config.py",
+   "source": "src/dilution/config.py",
+   "source_sha256": "b2ecb4cb56ec53e73206a8a9e70cfefa67114a4bc38629926f2efea1eff2a4f8",
+   "sha256": "b2ecb4cb56ec53e73206a8a9e70cfefa67114a4bc38629926f2efea1eff2a4f8",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/data.py",
+   "source": "src/dilution/data.py",
+   "source_sha256": "80c39f314d629b5c84f99f3ca2bd369b1b59c14d3a73485617a9fe7a4ce66da6",
+   "sha256": "80c39f314d629b5c84f99f3ca2bd369b1b59c14d3a73485617a9fe7a4ce66da6",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/extend.py",
+   "source": "src/dilution/extend.py",
+   "source_sha256": "b01503affef60aa5886e5e52bb86f0a4019e036e125c0dcb48e08bcc8f19a97d",
+   "sha256": "b01503affef60aa5886e5e52bb86f0a4019e036e125c0dcb48e08bcc8f19a97d",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/hub.py",
+   "source": "src/dilution/hub.py",
+   "source_sha256": "e0cbeeec898d544df4e7ac75dbaa3abc973d53f79efd1e1978d43e2aabb1bda2",
+   "sha256": "e0cbeeec898d544df4e7ac75dbaa3abc973d53f79efd1e1978d43e2aabb1bda2",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/kernels.py",
+   "source": "src/dilution/kernels.py",
+   "source_sha256": "5f8b70e6071368f547a88e105db2c59c9ee00cdee4e83fb8a0e731c7aba01bb6",
+   "sha256": "5f8b70e6071368f547a88e105db2c59c9ee00cdee4e83fb8a0e731c7aba01bb6",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/kernels_bid.py",
+   "source": "src/dilution/kernels_bid.py",
+   "source_sha256": "14f6a5777f0f844ea9c6a2a7b45a840db96aa69b7ad3966640cb332420d1e959",
+   "sha256": "14f6a5777f0f844ea9c6a2a7b45a840db96aa69b7ad3966640cb332420d1e959",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/kernels_frozen.py",
+   "source": "src/dilution/kernels_frozen.py",
+   "source_sha256": "83477b5cdf04ac8f0e76ddc18130cd7f032822da87eb9f475354328f27323f38",
+   "sha256": "83477b5cdf04ac8f0e76ddc18130cd7f032822da87eb9f475354328f27323f38",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/model.py",
+   "source": "src/dilution/model.py",
+   "source_sha256": "65db42cc265a7593480f2af2c13d080f17498cd9aa967591eecd76f2237721a3",
+   "sha256": "65db42cc265a7593480f2af2c13d080f17498cd9aa967591eecd76f2237721a3",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/niah_eval.py",
+   "source": "src/dilution/niah_eval.py",
+   "source_sha256": "afad483019f4be499d43e5b2bb70e8c1e813084ded6d1f4b9c9a07126b6e7ded",
+   "sha256": "afad483019f4be499d43e5b2bb70e8c1e813084ded6d1f4b9c9a07126b6e7ded",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/prepare_data.py",
+   "source": "src/dilution/prepare_data.py",
+   "source_sha256": "037956ad524714afca3c998363a4fbd2e16006ceef737c1e09b74b1dfc1703bb",
+   "sha256": "037956ad524714afca3c998363a4fbd2e16006ceef737c1e09b74b1dfc1703bb",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/rope.py",
+   "source": "src/dilution/rope.py",
+   "source_sha256": "80015fbbef58253c6c33772c6de465d0b2175e5ba026c7b2349af51c812d4abe",
+   "sha256": "80015fbbef58253c6c33772c6de465d0b2175e5ba026c7b2349af51c812d4abe",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/runtime.py",
+   "source": "src/dilution/runtime.py",
+   "source_sha256": "62b81bf2bbc6d20f1fbc92b8e4f5072718a8246b1ae57901b41886a990b7e7b8",
+   "sha256": "62b81bf2bbc6d20f1fbc92b8e4f5072718a8246b1ae57901b41886a990b7e7b8",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/sampling.py",
+   "source": "src/dilution/sampling.py",
+   "source_sha256": "718511cb2551c6431c31e362a11149990df1b671ae1591416fd14c5ea8ed80ba",
+   "sha256": "718511cb2551c6431c31e362a11149990df1b671ae1591416fd14c5ea8ed80ba",
+   "edits": []
+  },
+  {
+   "file": "src/dilution/train.py",
+   "source": "src/dilution/train.py",
+   "source_sha256": "6f71233445a30a9fd9e2c8111f9539158551a55e753e3a0ca848806a402c8db2",
+   "sha256": "5b9efd62e96efa499f7e8886c7c0d42de5ab608b4291afa557449bf4b1eff4f6",
+   "edits": [
+    [
+     "    optimizer, fused_optimizer = make_adamw(model.parameters(), training, runtime)",
+     "    # Parameters tagged _no_weight_decay (KDA's per-head A_log and dt_bias, mixers.py) are not decayed, as in fla /\n    # Kimi Linear; no softmax or dilution parameter is tagged, so their optimisation is unchanged.\n    decayed = [p for p in model.parameters() if not getattr(p, \"_no_weight_decay\", False)]\n    undecayed = [p for p in model.parameters() if getattr(p, \"_no_weight_decay\", False)]\n    param_groups = [{\"params\": decayed}] + ([{\"params\": undecayed, \"weight_decay\": 0.0}] if undecayed else [])\n    optimizer, fused_optimizer = make_adamw(param_groups, training, runtime)"
+    ]
+   ]
+  },
+  {
+   "file": "tests/conftest.py",
+   "source": "tests/conftest.py",
+   "source_sha256": "de9e67117397d73b98592aa403b2110e07c1ff5ef2bb1aeca178d822d031832f",
+   "sha256": "de9e67117397d73b98592aa403b2110e07c1ff5ef2bb1aeca178d822d031832f",
+   "edits": []
+  },
+  {
+   "file": "tests/test_harness.py",
+   "source": "tests/test_harness.py",
+   "source_sha256": "999836c3c42dbb1c81321881f3a702d522faf1d5ee35ff1f53a08b3d1045a865",
+   "sha256": "999836c3c42dbb1c81321881f3a702d522faf1d5ee35ff1f53a08b3d1045a865",
+   "edits": []
+  },
+  {
+   "file": "tests/test_hub.py",
+   "source": "tests/test_hub.py",
+   "source_sha256": "f27854ea16a423c2ab7e291cebc3e86a242d5d5ba31fe0c77e806c48f105ebb7",
+   "sha256": "f27854ea16a423c2ab7e291cebc3e86a242d5d5ba31fe0c77e806c48f105ebb7",
+   "edits": []
+  },
+  {
+   "file": "tests/test_kernels.py",
+   "source": "tests/test_kernels.py",
+   "source_sha256": "9a75152141c8df94feab76e31849af91224a4dd8ddd7f613859e876a1f06386f",
+   "sha256": "9a75152141c8df94feab76e31849af91224a4dd8ddd7f613859e876a1f06386f",
+   "edits": []
+  },
+  {
+   "file": "tests/test_model.py",
+   "source": "tests/test_model.py",
+   "source_sha256": "842f103c7ce01be6b8e9683ec765c1584751c6bf3bebc8e83c42579d4fff58b2",
+   "sha256": "842f103c7ce01be6b8e9683ec765c1584751c6bf3bebc8e83c42579d4fff58b2",
+   "edits": []
+  },
+  {
+   "file": "tests/test_sampling.py",
+   "source": "tests/test_sampling.py",
+   "source_sha256": "d245c4d9b12035d3fcdcafdfc300dd759ee8e18850bd16447eb6121d913f1406",
+   "sha256": "d245c4d9b12035d3fcdcafdfc300dd759ee8e18850bd16447eb6121d913f1406",
+   "edits": []
+  }
+ ]
+}

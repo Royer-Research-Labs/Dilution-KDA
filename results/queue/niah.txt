@@ -1,0 +1,189 @@
+[ctx=256] accuracy=1.000 gap=7.28 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=512] accuracy=1.000 gap=7.14 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=896] accuracy=1.000 gap=6.90 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=1024] accuracy=1.000 gap=6.81 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=1920] accuracy=1.000 gap=6.55 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=3072] accuracy=1.000 gap=6.47 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=3840] accuracy=1.000 gap=6.28 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=6144] accuracy=1.000 gap=6.41 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=7936] accuracy=1.000 gap=6.33 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=12288] accuracy=1.000 gap=6.07 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=16000] accuracy=1.000 gap=6.06 early/mid/late=1.00/1.00/1.00 n=140
+wrote results/niah/scale1x__kimi_dilution_seed1337.json
+[ctx=16000] accuracy=1.000 gap=5.94 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=24000] accuracy=1.000 gap=5.98 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=32000] accuracy=1.000 gap=6.07 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=48000] accuracy=1.000 gap=6.06 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=64000] accuracy=1.000 gap=6.23 early/mid/late=1.00/1.00/1.00 n=70
+wrote results/niah/extrap64k__kimi_dilution_seed1337.json
+[ctx=64000] accuracy=1.000 gap=6.23 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=96000] accuracy=1.000 gap=5.96 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=128000] accuracy=1.000 gap=6.16 early/mid/late=1.00/1.00/1.00 n=70
+wrote results/niah/extrap128k__kimi_dilution_seed1337.json
+[ctx=192000] accuracy=1.000 gap=5.83 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=256000] accuracy=1.000 gap=5.85 early/mid/late=1.00/1.00/1.00 n=70
+wrote results/niah/extrap256k__kimi_dilution_seed1337.json
+[ctx=256] accuracy=1.000 gap=7.66 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=512] accuracy=1.000 gap=6.29 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=896] accuracy=1.000 gap=5.30 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=1024] accuracy=1.000 gap=5.26 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=1920] accuracy=0.986 gap=3.28 early/mid/late=0.96/1.00/1.00 n=140
+[ctx=3072] accuracy=0.900 gap=2.42 early/mid/late=0.84/0.88/0.98 n=140
+[ctx=3840] accuracy=0.836 gap=1.88 early/mid/late=0.78/0.81/0.92 n=140
+[ctx=6144] accuracy=0.614 gap=0.66 early/mid/late=0.51/0.57/0.76 n=140
+[ctx=7936] accuracy=0.586 gap=0.32 early/mid/late=0.53/0.55/0.67 n=140
+[ctx=12288] accuracy=0.464 gap=-0.47 early/mid/late=0.39/0.43/0.57 n=140
+[ctx=16000] accuracy=0.443 gap=-0.41 early/mid/late=0.39/0.43/0.51 n=140
+wrote results/niah/scale1x__kimi_softmax_nope_seed1337.json
+[ctx=16000] accuracy=0.457 gap=-0.32 early/mid/late=0.36/0.43/0.57 n=70
+[ctx=24000] accuracy=0.314 gap=-0.69 early/mid/late=0.14/0.21/0.54 n=70
+[ctx=32000] accuracy=0.286 gap=-0.76 early/mid/late=0.14/0.14/0.50 n=70
+[ctx=48000] accuracy=0.329 gap=-0.74 early/mid/late=0.18/0.21/0.54 n=70
+[ctx=64000] accuracy=0.329 gap=-0.57 early/mid/late=0.21/0.29/0.46 n=70
+wrote results/niah/extrap64k__kimi_softmax_nope_seed1337.json
+[ctx=64000] accuracy=0.329 gap=-0.57 early/mid/late=0.21/0.29/0.46 n=70
+[ctx=96000] accuracy=0.286 gap=-0.82 early/mid/late=0.14/0.14/0.50 n=70
+[ctx=128000] accuracy=0.243 gap=-0.65 early/mid/late=0.14/0.14/0.39 n=70
+wrote results/niah/extrap128k__kimi_softmax_nope_seed1337.json
+[ctx=16000] accuracy=1.000 gap=7.36 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=64000] accuracy=1.000 gap=6.86 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=128000] accuracy=1.000 gap=6.77 early/mid/late=1.00/1.00/1.00 n=70
+wrote results/niah/kept16000__kimi_dilution_seed1337.json
+[ctx=16000] accuracy=1.000 gap=6.19 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=64000] accuracy=1.000 gap=6.22 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=128000] accuracy=1.000 gap=6.16 early/mid/late=1.00/1.00/1.00 n=70
+wrote results/niah/kept32000__kimi_dilution_seed1337.json
+[ctx=16000] accuracy=0.171 gap=-1.04 early/mid/late=0.14/0.14/0.21 n=70
+[ctx=64000] accuracy=0.171 gap=-1.88 early/mid/late=0.14/0.14/0.21 n=70
+[ctx=128000] accuracy=0.157 gap=-2.01 early/mid/late=0.14/0.14/0.18 n=70
+wrote results/niah/kept16000__kimi_softmax_nope_seed1337.json
+[ctx=16000] accuracy=0.229 gap=-0.96 early/mid/late=0.14/0.14/0.36 n=70
+[ctx=64000] accuracy=0.329 gap=-1.00 early/mid/late=0.21/0.29/0.46 n=70
+[ctx=128000] accuracy=0.229 gap=-1.36 early/mid/late=0.14/0.14/0.36 n=70
+wrote results/niah/kept32000__kimi_softmax_nope_seed1337.json
+[ctx=256] accuracy=1.000 gap=7.49 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=512] accuracy=1.000 gap=7.84 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=896] accuracy=1.000 gap=7.94 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=1024] accuracy=1.000 gap=8.00 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=1920] accuracy=1.000 gap=7.81 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=3072] accuracy=1.000 gap=8.16 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=3840] accuracy=1.000 gap=7.86 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=6144] accuracy=1.000 gap=8.04 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=7936] accuracy=1.000 gap=8.09 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=12288] accuracy=1.000 gap=7.88 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=16000] accuracy=1.000 gap=8.01 early/mid/late=1.00/1.00/1.00 n=140
+wrote results/niah/scale1x__kimi_dilution_seed2357.json
+[ctx=16000] accuracy=1.000 gap=7.90 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=24000] accuracy=1.000 gap=7.78 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=32000] accuracy=1.000 gap=7.63 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=48000] accuracy=1.000 gap=7.48 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=64000] accuracy=1.000 gap=7.17 early/mid/late=1.00/1.00/1.00 n=70
+wrote results/niah/extrap64k__kimi_dilution_seed2357.json
+[ctx=64000] accuracy=1.000 gap=7.17 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=96000] accuracy=1.000 gap=6.66 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=128000] accuracy=0.986 gap=6.06 early/mid/late=1.00/1.00/0.96 n=70
+wrote results/niah/extrap128k__kimi_dilution_seed2357.json
+[ctx=192000] accuracy=0.957 gap=5.22 early/mid/late=1.00/0.86/0.96 n=70
+[ctx=256000] accuracy=0.900 gap=4.45 early/mid/late=0.89/0.86/0.93 n=70
+wrote results/niah/extrap256k__kimi_dilution_seed2357.json
+[ctx=256] accuracy=1.000 gap=5.32 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=512] accuracy=1.000 gap=4.48 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=896] accuracy=0.950 gap=3.46 early/mid/late=0.86/1.00/1.00 n=140
+[ctx=1024] accuracy=0.936 gap=3.41 early/mid/late=0.82/1.00/1.00 n=140
+[ctx=1920] accuracy=0.986 gap=4.12 early/mid/late=0.96/1.00/1.00 n=140
+[ctx=3072] accuracy=1.000 gap=5.93 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=3840] accuracy=1.000 gap=4.85 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=6144] accuracy=1.000 gap=6.68 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=7936] accuracy=1.000 gap=6.54 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=12288] accuracy=1.000 gap=6.56 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=16000] accuracy=1.000 gap=6.45 early/mid/late=1.00/1.00/1.00 n=140
+wrote results/niah/scale1x__kimi_dilution_seed7331.json
+[ctx=16000] accuracy=1.000 gap=6.45 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=24000] accuracy=1.000 gap=6.56 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=32000] accuracy=1.000 gap=6.85 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=48000] accuracy=1.000 gap=7.60 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=64000] accuracy=1.000 gap=6.84 early/mid/late=1.00/1.00/1.00 n=70
+wrote results/niah/extrap64k__kimi_dilution_seed7331.json
+[ctx=64000] accuracy=1.000 gap=6.84 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=96000] accuracy=1.000 gap=6.54 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=128000] accuracy=0.929 gap=4.65 early/mid/late=1.00/0.86/0.89 n=70
+wrote results/niah/extrap128k__kimi_dilution_seed7331.json
+[ctx=192000] accuracy=0.914 gap=4.60 early/mid/late=1.00/0.93/0.82 n=70
+[ctx=256000] accuracy=0.657 gap=2.20 early/mid/late=0.86/0.50/0.54 n=70
+wrote results/niah/extrap256k__kimi_dilution_seed7331.json
+[ctx=256] accuracy=1.000 gap=7.25 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=512] accuracy=1.000 gap=7.14 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=896] accuracy=1.000 gap=6.43 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=1024] accuracy=1.000 gap=6.26 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=1920] accuracy=1.000 gap=3.67 early/mid/late=1.00/1.00/1.00 n=140
+[ctx=3072] accuracy=0.993 gap=2.10 early/mid/late=0.98/1.00/1.00 n=140
+[ctx=3840] accuracy=0.957 gap=1.62 early/mid/late=0.92/0.95/1.00 n=140
+[ctx=6144] accuracy=0.886 gap=0.98 early/mid/late=0.84/0.86/0.96 n=140
+[ctx=7936] accuracy=0.821 gap=0.71 early/mid/late=0.71/0.86/0.90 n=140
+[ctx=12288] accuracy=0.707 gap=0.37 early/mid/late=0.59/0.64/0.88 n=140
+[ctx=16000] accuracy=0.707 gap=0.33 early/mid/late=0.57/0.67/0.88 n=140
+wrote results/niah/scale1x__kimi_softmax_nope_seed7331.json
+[ctx=16000] accuracy=0.714 gap=0.42 early/mid/late=0.57/0.64/0.89 n=70
+[ctx=24000] accuracy=0.614 gap=0.17 early/mid/late=0.54/0.57/0.71 n=70
+[ctx=32000] accuracy=0.586 gap=0.08 early/mid/late=0.50/0.57/0.68 n=70
+[ctx=48000] accuracy=0.486 gap=-0.00 early/mid/late=0.32/0.43/0.68 n=70
+[ctx=64000] accuracy=0.400 gap=-0.07 early/mid/late=0.29/0.29/0.57 n=70
+wrote results/niah/extrap64k__kimi_softmax_nope_seed7331.json
+[ctx=64000] accuracy=0.400 gap=-0.07 early/mid/late=0.29/0.29/0.57 n=70
+[ctx=96000] accuracy=0.343 gap=-0.26 early/mid/late=0.25/0.29/0.46 n=70
+[ctx=128000] accuracy=0.257 gap=-0.35 early/mid/late=0.14/0.14/0.43 n=70
+wrote results/niah/extrap128k__kimi_softmax_nope_seed7331.json
+[ctx=256] accuracy=0.979 gap=3.55 early/mid/late=0.98/1.00/0.96 n=140
+[ctx=512] accuracy=0.993 gap=3.16 early/mid/late=0.98/1.00/1.00 n=140
+[ctx=896] accuracy=0.993 gap=2.63 early/mid/late=0.98/1.00/1.00 n=140
+[ctx=1024] accuracy=0.979 gap=2.33 early/mid/late=0.94/1.00/1.00 n=140
+[ctx=1920] accuracy=0.957 gap=1.86 early/mid/late=0.88/1.00/1.00 n=140
+[ctx=3072] accuracy=0.850 gap=1.27 early/mid/late=0.76/0.86/0.94 n=140
+[ctx=3840] accuracy=0.850 gap=1.29 early/mid/late=0.71/0.83/1.00 n=140
+[ctx=6144] accuracy=0.779 gap=0.73 early/mid/late=0.71/0.71/0.90 n=140
+[ctx=7936] accuracy=0.714 gap=0.49 early/mid/late=0.63/0.71/0.80 n=140
+[ctx=12288] accuracy=0.629 gap=0.17 early/mid/late=0.43/0.69/0.78 n=140
+[ctx=16000] accuracy=0.443 gap=-0.03 early/mid/late=0.24/0.29/0.78 n=140
+wrote results/niah/scale1x__kimi_softmax_nope_seed2357.json
+[ctx=16000] accuracy=0.443 gap=0.01 early/mid/late=0.25/0.36/0.68 n=70
+[ctx=24000] accuracy=0.300 gap=-0.41 early/mid/late=0.18/0.14/0.50 n=70
+[ctx=32000] accuracy=0.286 gap=-0.39 early/mid/late=0.18/0.14/0.46 n=70
+[ctx=48000] accuracy=0.229 gap=-0.74 early/mid/late=0.14/0.14/0.36 n=70
+[ctx=64000] accuracy=0.229 gap=-0.65 early/mid/late=0.14/0.14/0.36 n=70
+wrote results/niah/extrap64k__kimi_softmax_nope_seed2357.json
+[ctx=64000] accuracy=0.229 gap=-0.65 early/mid/late=0.14/0.14/0.36 n=70
+[ctx=96000] accuracy=0.200 gap=-0.97 early/mid/late=0.14/0.14/0.29 n=70
+[ctx=128000] accuracy=0.271 gap=-0.77 early/mid/late=0.14/0.14/0.46 n=70
+wrote results/niah/extrap128k__kimi_softmax_nope_seed2357.json
+[ctx=16000] accuracy=1.000 gap=8.80 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=64000] accuracy=1.000 gap=8.78 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=128000] accuracy=1.000 gap=8.61 early/mid/late=1.00/1.00/1.00 n=70
+wrote results/niah/kept16000__kimi_dilution_seed2357.json
+[ctx=16000] accuracy=1.000 gap=6.27 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=64000] accuracy=1.000 gap=4.85 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=128000] accuracy=0.971 gap=4.29 early/mid/late=0.96/1.00/0.96 n=70
+wrote results/niah/kept32000__kimi_dilution_seed2357.json
+[ctx=16000] accuracy=0.143 gap=-1.05 early/mid/late=0.14/0.14/0.14 n=70
+[ctx=64000] accuracy=0.143 gap=-0.89 early/mid/late=0.14/0.14/0.14 n=70
+[ctx=128000] accuracy=0.157 gap=-1.02 early/mid/late=0.14/0.14/0.18 n=70
+wrote results/niah/kept16000__kimi_softmax_nope_seed2357.json
+[ctx=16000] accuracy=0.243 gap=-0.93 early/mid/late=0.14/0.14/0.39 n=70
+[ctx=64000] accuracy=0.243 gap=-1.15 early/mid/late=0.14/0.14/0.39 n=70
+[ctx=128000] accuracy=0.329 gap=-1.06 early/mid/late=0.25/0.21/0.46 n=70
+wrote results/niah/kept32000__kimi_softmax_nope_seed2357.json
+[ctx=16000] accuracy=0.743 gap=2.40 early/mid/late=0.68/0.57/0.89 n=70
+[ctx=64000] accuracy=0.486 gap=0.46 early/mid/late=0.39/0.43/0.61 n=70
+[ctx=128000] accuracy=0.471 gap=-0.16 early/mid/late=0.36/0.43/0.61 n=70
+wrote results/niah/kept16000__kimi_dilution_seed7331.json
+[ctx=16000] accuracy=1.000 gap=5.51 early/mid/late=1.00/1.00/1.00 n=70
+[ctx=64000] accuracy=0.943 gap=4.32 early/mid/late=1.00/0.93/0.89 n=70
+[ctx=128000] accuracy=0.871 gap=3.66 early/mid/late=0.86/0.79/0.93 n=70
+wrote results/niah/kept32000__kimi_dilution_seed7331.json
+[ctx=16000] accuracy=0.343 gap=-0.54 early/mid/late=0.29/0.29/0.43 n=70
+[ctx=64000] accuracy=0.214 gap=-1.15 early/mid/late=0.14/0.21/0.29 n=70
+[ctx=128000] accuracy=0.143 gap=-1.35 early/mid/late=0.14/0.14/0.14 n=70
+wrote results/niah/kept16000__kimi_softmax_nope_seed7331.json
+[ctx=16000] accuracy=0.414 gap=0.02 early/mid/late=0.29/0.29/0.61 n=70
+[ctx=64000] accuracy=0.229 gap=-0.77 early/mid/late=0.14/0.14/0.36 n=70
+[ctx=128000] accuracy=0.200 gap=-1.25 early/mid/late=0.14/0.14/0.29 n=70
+wrote results/niah/kept32000__kimi_softmax_nope_seed7331.json
