@@ -4,6 +4,14 @@ title: "Dilution-KDA: Kimi Linear's hybrid layout with dilution attention at 209
 repository-code: "https://github.com/Royer-Research-Labs/Dilution-KDA"
 type: software
 version: 0.1.0
+doi: 10.5281/zenodo.24269647
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24269647
+    description: Concept DOI (all versions; resolves to the latest)
+  - type: doi
+    value: 10.5281/zenodo.24269648
+    description: Version DOI of v0.1.0
 abstract: >-
   A controlled comparison in Kimi Linear's hybrid layout (three Kimi Delta Attention layers, then one full attention
   layer, repeated six times): the softmax in the six attention layers is replaced by dilution attention, a

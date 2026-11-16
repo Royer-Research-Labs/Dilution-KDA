@@ -1,5 +1,7 @@
 # Kimi Linear's layout with dilution attention
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24269647.svg)](https://doi.org/10.5281/zenodo.24269647)
+
 What happens if you take the hybrid layout of Kimi Linear (three Kimi Delta Attention layers, then one full attention
 layer) and swap the softmax in those attention layers for
 [dilution attention](https://github.com/Royer-Research-Labs/dilution-attention), a parameter-free attention operator?
@@ -91,5 +93,6 @@ Apache-2.0 (see `LICENSE` and `NOTICE`). Kimi Delta Attention and the Kimi Linea
 Triton kernel. The needle-in-a-haystack hard mode and distant-text control come from
 [Selective-Attention-Study](https://github.com/Royer-Research-Labs/Selective-Attention-Study).
 
-If you use these results, please cite the DilutionAttention technical report
-([10.5281/zenodo.23073151](https://doi.org/10.5281/zenodo.23073151)) and Kimi Linear.
+If you use these results, please cite this repository
+([10.5281/zenodo.24269647](https://doi.org/10.5281/zenodo.24269647); see `CITATION.cff`), the DilutionAttention
+technical report ([10.5281/zenodo.23073151](https://doi.org/10.5281/zenodo.23073151)) and Kimi Linear.
