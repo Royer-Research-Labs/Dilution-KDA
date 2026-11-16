@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite this repository, the DilutionAttention technical report and Kimi Linear."
+title: "Dilution-KDA: Kimi Linear's hybrid layout with dilution attention at 209M parameters and 16K context"
+repository-code: "https://github.com/Royer-Research-Labs/Dilution-KDA"
+type: software
+version: 0.1.0
+abstract: >-
+  A controlled comparison in Kimi Linear's hybrid layout (three Kimi Delta Attention layers, then one full attention
+  layer, repeated six times): the softmax in the six attention layers is replaced by dilution attention, a
+  parameter-free causal attention operator. Both models have 208,514,136 parameters and are trained with no position
+  encoding at a 16K context on 4.19B FineWeb-Edu tokens, three seeds each, under the published DilutionAttention
+  recipe. The repository holds the KDA layer, the configurations, run records, and evaluations of held-out loss,
+  needle-in-a-haystack retrieval out to 256K tokens, harder retrieval with natural filler and keyed distractors,
+  long-document loss on PG-19, the use of distant context, and attention on the needle.
+keywords:
+  - dilution attention
+  - Kimi Linear
+  - Kimi Delta Attention
+  - linear attention
+  - length extrapolation
+  - long context
+  - transformer
+license: Apache-2.0
+authors:
+  - given-names: Nick
+    family-names: Royer
+    affiliation: "Royer Research Labs, LLC"
+    orcid: "https://orcid.org/0009-0009-8762-0432"
+date-released: 2026-11-16
+references:
+  - type: report
+    title: "DilutionAttention: a parameter-free attention operator that divides each bid by the demand its key has already absorbed (technical report, version 0.1)"
+    authors:
+      - given-names: Nick
+        family-names: Royer
+        affiliation: "Royer Research Labs, LLC"
+        orcid: "https://orcid.org/0009-0009-8762-0432"
+    year: 2026
+    publisher:
+      name: Zenodo
+    doi: 10.5281/zenodo.23073151
+  - type: article
+    title: "Kimi Linear: An Expressive, Efficient Attention Architecture"
+    authors:
+      - name: "Kimi Team"
+    year: 2025
+    identifiers:
+      - type: other
+        value: "arXiv:2510.26692"
